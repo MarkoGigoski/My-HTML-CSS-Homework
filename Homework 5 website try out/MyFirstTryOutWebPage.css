@@ -1,0 +1,101 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+#myHeader1{
+    background: whitesmoke;
+    text-align: center;
+}
+body{
+    background-image: url(./Images/backrund.webp);
+    background-size: cover;
+    font-family: sans-serif;
+}
+/*I lost 3h trying to insert img as a logo but youtube tutorials SUCKSSSSSSSSS!!!!!!!!!!!*/
+#logo{
+    float: left;
+    font-size: large;
+    color: black;
+}
+#homeID{
+    color: green;
+}
+#aboutusID{
+    color: black;
+}
+#whereweareID{
+    color: green;
+}
+#contactID{
+    color:black;
+}
+#search{
+    margin-left: 50px;
+}
+.menuBar{
+    background-color: darkgreen;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+}
+.menuBar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menuBar ul li{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+}
+.menuBar ul li a{
+    width: 150px;
+    color: whitesmoke;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+/*On this i lost 2h trying to do it for my web and not just copy paste it from youtube*/
+}
+a:hover{
+    background: yellowgreen;
+}
+.menuBar ul li ul{
+    background-color: green;
+}
+.menuBar ul li ul li{
+    float: none; 
+}
+.menuBar ul li ul{
+    display: none;
+}
+.menuBar ul li:hover ul{
+    display: block; 
+}
+/*---------------------------------------------------------------------------------------*/
+#aboutUs{
+    background-color: whitesmoke ;
+    color: green;
+    text-align: center;
+}
+#iframe{
+    text-align: center;
+}
+.iframe2{
+    color: whitesmoke;
+}
+#contact{
+    color: whitesmoke;
+}
+#homeVideos{
+    text-align: end;
+}
+.growshopVideo{
+    text-align: center;
+}
