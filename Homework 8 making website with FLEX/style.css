@@ -1,0 +1,582 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+}
+/*Header CSS*/
+.logo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    border: 5px solid #D4AFB9;
+}
+#logo img{
+    border-radius: 20%;
+}
+#logo2 img{
+    border-radius: 20%; 
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 205px;
+    justify-content: space-between;
+    align-items:  center;
+    background-color: #53D8FB;
+    padding: 10px;
+}
+header a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    background-color:#DCE1E9;
+    border-radius: 50%;
+    border: 5px solid #D4AFB9;
+}
+.navList{
+    display: flex;
+    list-style: none;
+}
+.navList li{
+    margin-right: 30px;
+    padding: 30px;
+    list-style: none;
+}
+.navList li:hover{
+    text-shadow:  3px 3px 3px #53D8FB;
+    color: #363732;
+}
+.hp{
+    text-decoration: none;
+    color:  #363732;
+}
+/*MAIN CSS*/
+main{
+    background-color:#D4AFB9;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+main h2{
+   color: #363732;
+}
+main h4{
+   color: #363732;
+}
+main a{
+    color: #DCE1E9;
+    text-decoration: none;
+}
+.item{
+background-color: #DCE1E9;
+justify-content: center;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+/*Main FLEX*/
+.container1{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%
+}
+.container2{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%
+}
+.container3{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%
+}
+/* FLEX1 Item 1*/
+#kid1{
+    height: 200px;
+    background-image: url(./images/kid1.jpg);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid2{
+    height: 200px;
+    background-image: url(./images/kid2.jpg);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid3{
+    height: 200px;
+    background-image: url(./images/kid3.jpg);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid4{
+    height: 200px;
+    background-image: url(./images/kid4.jpg);
+    background-size: cover;
+    text-align:center ;
+    margin:10px;
+    border-radius: 10%;
+}
+#kid5{
+    height: 200px;
+    background-image: url(./images/kid5.jpg);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid6{
+    height: 200px;
+    background-image: url(./images/kid6.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid7{
+    height: 200px;
+    background-image: url(./images/kid7.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid8{
+    height: 200px;
+    background-image: url(./images/kid8.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid9{
+    height: 200px;
+    background-image: url(./images/kid9.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid10{
+    height: 200px;
+    background-image: url(./images/kid10.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+/* FLEX1 Item 2*/
+#kid11{
+    height: 200px;
+    background-image: url(./images/kid11.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid12{
+    height: 200px;
+    background-image: url(./images/kid12.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid13{
+    height: 200px;
+    background-image: url(./images/kid13.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid14{
+    height: 200px;
+    background-image: url(./images/kid14.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid15{
+    height: 200px;
+    background-image: url(./images/kid15.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid16{
+    height: 200px;
+    background-image: url(./images/kid16.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid17{
+    height: 200px;
+    background-image: url(./images/kid17.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid18{
+    height: 200px;
+    background-image: url(./images/kid18.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid19{
+    height: 200px;
+    background-image: url(./images/kid19.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid20{
+    height: 200px;
+    background-image: url(./images/kid20.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+/*FLEX1 Item 3*/
+#kid21{
+    height: 200px;
+    background-image: url(./images/kid21.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid22{
+    height: 200px;
+    background-image: url(./images/kid22.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid23{
+    height: 200px;
+    background-image: url(./images/kid23.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid24{
+    height: 200px;
+    background-image: url(./images/kid24.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid25{
+    height: 200px;
+    background-image: url(./images/kid25.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid26{
+    height: 200px;
+    background-image: url(./images/kid26.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid27{
+    height: 200px;
+    background-image: url(./images/kid27.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid28{
+    height: 200px;
+    background-image: url(./images/kid28.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid29{
+    height: 200px;
+    background-image: url(./images/kid29.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+#kid30{
+    height: 200px;
+    background-image: url(./images/kid30.webp);
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10%
+}
+/*Flex2 Contacts*/
+.contactMain{
+    display: flex;
+    justify-content: space-between;
+}
+.flex2{
+    display: flex;
+    background-color:#D4AFB9;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.flex2 b{
+    color: #53D8FB;
+    font-style: none;
+    font-size: x-large;
+}
+#destinations{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+    border: 10px solid #53D8FB;
+    background-image: url(./images/Destinations.jpg);
+    height: 400px;
+    width: 400px;
+    text-align:center;
+    margin: 20px;
+    opacity: 0.8;
+}
+#itineraries{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+    border: 10px solid #53D8FB;
+    background-image: url(./images/Travel\ Itinenaris.jpg);
+    height: 400px;
+    width: 400px;
+    text-align:center;
+    margin: 20px;
+    opacity: 0.8;
+}
+#travelTips{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+    border: 10px solid #53D8FB;
+    background-image: url(./images/Travel\ Tips.jpg);
+    height: 400px;
+    width: 400px;
+    text-align:center;
+    margin: 20px;
+    opacity: 0.8;
+}
+/*Contact & Chat Fex*/
+.chatContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatContainerItem{
+    width: 100%;
+    height: 100vh;
+    border: 10px solid #DCE1E9;
+    border-radius: 5%;
+    align-items: center;
+}
+#fieldset{
+    border-color: transparent;
+}
+#chat{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DCE1E9;
+    margin: 50px;
+}
+#chat img{
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+}
+.chatbox{
+    background:#53D8FB;
+    width: 80%;
+    min-width: 250px;
+    display: flex;
+}
+.col-1{
+    flex: 1;
+}
+.col-2{
+    flex-basis: 250px;
+    background:#66C3FF;
+}
+.msg-row{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+.msg-text{
+    background: #D4AFB9;
+    padding: 20px 40px;
+    border-radius: 8px;
+    flex-basis: 70%;
+    font-weight: 300;
+}
+.msg-text h2{
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.msg-row2{
+    justify-content: end;
+}
+.col-1 input{
+    border: 0;
+    outline: none;
+    padding: 20px 40px;
+    background: #66C3FF;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    color: #363732;
+}
+.col-2 h3{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 400;
+}
+.col-2 ul{
+    list-style: none;
+    padding: 30px;
+}
+.col-2 ul li{
+    padding: 5px 0;
+}
+/*For this youtube:)*/
+.col-2 ul li::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #D4AFB9;
+    display: inline-block;
+    margin-right: 10px;
+}
+.col-2 ul li.online::before{
+    background-color: greenyellow;
+}
+.col-2 ul li.offline::before{
+    background-color: tomato;
+}
+.col-2 ul li.bisy::before{
+    background-color: yellow;
+}
+/*----^-----_____------^--------*/
+/*LOGIN Flex*/
+.flex3{
+    background-color:#D4AFB9;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+.flex3Item{
+    background-color: #DCE1E9;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 10px solid #53D8FB;
+}
+#registrate{
+    display: flex;
+    width: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%
+}
+#logIn{
+    display: flex;
+    width: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%
+}
+/*FOOTER Flex*/
+footer{
+    display: flex;
+    background-color: #66C3FF;
+    width: 100%;
+    height: 120px;
+    align-content:flex-start;
+    margin: 5px;
+}
+.flex4Items{
+    justify-content: center;
+    margin: 10px;
+}
+#logoBackOnTop{
+    opacity: 0.7;
+}
+
+#socialInfo{
+    background-color: #DCE1E9;
+    border-radius: 5%;
+    text-align: center;
+}
+#socialInfo h3{
+    color:#363732;
+}
+#chatBot{
+    background-image: url("./images/Chatbot\ 2.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+}
+/*The End..*/

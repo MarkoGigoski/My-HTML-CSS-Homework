@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contact</title>
+</head>
+<body id="top">
+    <header>
+        <!--Logo for profile-->
+        <logo class="logo">
+            <img
+            src="./images/Logo.jpg"
+            alt="logo"
+            />
+        </logo>
+        <!--Logo alike for style and Cheep Flight sudjestions-->
+        <a href="https://www.tripadvisor.com/CheapFlightsHome" target="_blank">
+            <logo class="logo" id="logo">
+                <img
+                src="./images/Logo 2.webp"
+                alt="logo2"
+                />
+            </logo>
+        </a>
+        <!--Logo alike 2 for world rentalCar-->
+        <a href="https://www.rentalcars.com/?affiliateCode=google&preflang=us&label=generic-PjmfhQ3JcHP58WMI9aO7nAS282788955515&ws=&ppc_placement=&ppc_target=&ppc_param1=&ppc_param2=&aceid=&adposition=&ppc_network=g&feeditemid=&ppc_targetid=kwd-28173230&loc_physical_ms=2807&loc_interest_ms=&ppc_device=c&ppc_devicemodel=&gclid=Cj0KCQiAj4ecBhD3ARIsAM4Q_jHS99ki8Jen6YsCodnGPEkXnej0E3bGqAtsx4FnPbuV0InL6BjPS5kaAusqEALw_wcB" target="_blank">
+            <logo class="logo" id="logo2">
+                <img
+                src="./images/logo3.avif"
+                alt="logo2"
+                />
+            </logo>
+        </a>
+        <!--Nav menu-->
+        <nav>
+            <ul class="navList">
+                <a class="hp" href="./Blog.html">
+                    <li>
+                        <h1>Blog</h1>
+                    </li>
+                </a>
+                <a class="hp" href="./TravelGuid.html">
+                    <li>
+                        <h1>Travel Guide</h1>
+                    </li>
+                </a>
+                <a class="hp" href="">
+                    <li>
+                        <h1>Contact & Chat</h1>
+                    </li>
+                </a>
+                <a class="hp" href="./Login.html">
+                    <li>
+                        <h1>Login</h1>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <!--Main-->
+    <main class="chatContainer">
+        <div class="chatContainerItem" id="contact">
+            <form>
+                <fieldset id="fieldset">
+                    <legend><h2>Contact</h2></legend>
+                    <br />
+                    <label for="select">Info</label>
+                    <br />
+                    <select id="select" name="select">
+                        <option>Random Questions</option>
+                        <option>Travel Tips</option>
+                        <option>Travel Guides</option>
+                        <option selected="selected">What do you want to know?</option>
+                        <option>Suggested Destinations</option>
+                        <option>Personal Information</option>
+                    </select>
+                    <br />
+                    <br />
+                    <br />
+                    <label for="mail">Email address</label>
+                    <br />
+                    <input
+                    type="text" name="mail" id="mail"/>
+                    <br />
+                    <br />
+                    <br />
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender"id="male"/>
+                    <label for="gender">Female</label>
+                    <input type="radio" name="gender" id="female"/>
+                    <br />
+                    <br />
+                    <br />
+                    <label for="origin">Where are you from?</label>
+                    <br />
+                    <input type="text" name="origin" id="origin"/>
+                    <br />
+                    <br />
+                    <br />
+                    <h2>Your Opinion</h2>
+                    <textarea id="useComments" name="userComments" cols="25" row="25"></textarea>
+                    <br />
+                    <input type="submit" value="Send" />
+                    <input type="reset" value="Cancel" />
+                </fieldset>
+            </form>
+            <br />
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11860.854849136662!2d21.4252366!3d41.9956888!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1218e732c394d1!2sTurkish%20Airlines!5e0!3m2!1sen!2smk!4v1669552626563!5m2!1sen!2smk"width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            id="iframe"></iframe>
+        </div>
+        <div class="chatContainerItem" id="chat">
+            <div class="chatbox">
+                <div class="col-1">
+                    <div class="msg-row">
+                        <div class="msg-text">
+                            <h2>Marko Gigoski</h2>
+                            <p>I am waiting for your replay</p>
+                        </div>
+                        <img src="./images/MARKO 1.jpg" class="msg-img" />
+                    </div>
+                    <div class="msg-row msg-row2">
+                        <img src="./images/Kristina 1.jpg" class="msg-img" />
+                        <div class="msg-text">
+                            <h2>Kristina Gigoska</h2>
+                            <p>Wana go to Egypt?</p>
+                        </div>
+                    </div>
+                    <div class="msg-row">
+                        <div class="msg-text">
+                            <h2>Marko Gigoski</h2>
+                            <p>Yess LETS GOOOOOO!</p>
+                        </div>
+                        <img src="./images/MARKO 1.jpg" class="msg-img" />
+                    </div>
+                    <input type="text" placeholder="Type your messages here..."/>
+                </div>
+                <div class="col-2">
+                    <h3>Friends list</h3>
+                    <ul>
+                        <li class="online">
+                            Gjorge Dimitrov
+                        </li>
+                        <li class="offline">
+                            Aneta Stankovska
+                        </li>
+                        <li class="bisy">
+                            Dana Tasevska
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div class="flex4Items" id="logoBackOnTop">
+            <a href="#top">
+                <img src="./images/top TOP top.jpg"
+                width="100px"
+                height="100px"
+                alt="BackOnTop"/>
+            </a>
+        </div>
+        <div class="flex4Items" id="socialInfo">
+            <h3>Str. Trifun Panovski 5/2-5, Skopje-Centar</h3>
+            <h3>e-mail: markogigoski@outlook.com</h3>
+            <h3>+389 078 321 556</h3>
+        </div>
+        <div class="flex4Items" id="chatBot"></div>
+    </footer>
+</body>
+</html>
